@@ -1,0 +1,18 @@
+from Constants import PREFIX, SIMUTATION_TIME
+
+cfg = open('%s.sumocfg' % PREFIX, "w")
+print('<configuration>', file = cfg)
+print('    <input>', file = cfg)
+print('        <net-file value="%s.net.xml"/>' % PREFIX, file = cfg)
+print('        <route-files value="%s.rou.xml"/>' % PREFIX, file = cfg)
+print('        <additional-files value="%s.add.xml"/>' % PREFIX, file = cfg)
+print('    </input>', file = cfg)
+print('    <time>', file = cfg)
+print('        <begin value="0"/>', file = cfg)
+print('        <end value="%s"/>' % SIMUTATION_TIME, file = cfg)
+print('    </time>', file = cfg)
+print('    <processing>', file = cfg)
+print('        <time-to-teleport value="-1"/>', file = cfg)
+print('    </processing>', file = cfg)
+print('</configuration>', file = cfg)
+cfg.close()

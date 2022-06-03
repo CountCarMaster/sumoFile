@@ -1,0 +1,5 @@
+INFINITY = 1e400
+
+PREFIX = "net"
+DOUBLE_ROWS = 8
+ROW_DIST = 50

@@ -1,0 +1,13 @@
+<configuration>
+    <input>
+        <net-file value="cross.net.xml" />
+        <route-files value="cross.rou.xml" />
+    </input>
+    <time>
+        <begin value="0" />
+        <end value="1000" />
+    </time>
+    <output>
+        <fcd-output value="cross.output9.xml" />
+    </output>
+</configuration>

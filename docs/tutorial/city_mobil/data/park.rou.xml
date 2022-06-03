@@ -1,0 +1,488 @@
+<routes>
+    <vType id="car" length="3" minGap=".5" guiShape="passenger" maxSpeed="50" color="0.7,0.7,0.7"/>
+    <vType id="person" length=".25" minGap="0" guiShape="pedestrian" width=".25" maxSpeed="5" color="1,0.2,0.2"/>
+    <vType id="cybercar" length="9" minGap="1" guiShape="evehicle" maxSpeed="5" color="0,1,0" emissionClass="HBEFA2/P_7_7"/>
+    <flow id="pfoot0-9r" type="person" begin="0" period="1" number="3">
+        <route edges="foot0-9r -foot0-9r"/>
+    </flow>
+    <vehicle id="vslot0-9l" type="car" depart="0" departPos="0">
+        <route edges="slot0-9l -slot0-9l"/>
+    </vehicle>
+    <flow id="pfoot0-8r" type="person" begin="0" period="1" number="3">
+        <route edges="foot0-8r -foot0-8r"/>
+    </flow>
+    <flow id="pfoot0-8l" type="person" begin="0" period="1" number="3">
+        <route edges="foot0-8l -foot0-8l"/>
+    </flow>
+    <flow id="pfoot0-7r" type="person" begin="0" period="1" number="3">
+        <route edges="foot0-7r -foot0-7r"/>
+    </flow>
+    <flow id="pfoot0-7l" type="person" begin="0" period="1" number="3">
+        <route edges="foot0-7l -foot0-7l"/>
+    </flow>
+    <flow id="pfoot0-6r" type="person" begin="0" period="1" number="3">
+        <route edges="foot0-6r -foot0-6r"/>
+    </flow>
+    <flow id="pfoot0-6l" type="person" begin="0" period="1" number="3">
+        <route edges="foot0-6l -foot0-6l"/>
+    </flow>
+    <vehicle id="vslot0-5r" type="car" depart="0" departPos="0">
+        <route edges="slot0-5r -slot0-5r"/>
+    </vehicle>
+    <flow id="pfoot0-5l" type="person" begin="0" period="1" number="3">
+        <route edges="foot0-5l -foot0-5l"/>
+    </flow>
+    <vehicle id="vslot0-4r" type="car" depart="0" departPos="0">
+        <route edges="slot0-4r -slot0-4r"/>
+    </vehicle>
+    <vehicle id="vslot0-4l" type="car" depart="0" departPos="0">
+        <route edges="slot0-4l -slot0-4l"/>
+    </vehicle>
+    <flow id="pfoot0-3r" type="person" begin="0" period="1" number="3">
+        <route edges="foot0-3r -foot0-3r"/>
+    </flow>
+    <vehicle id="vslot0-3l" type="car" depart="0" departPos="0">
+        <route edges="slot0-3l -slot0-3l"/>
+    </vehicle>
+    <flow id="pfoot0-2r" type="person" begin="0" period="1" number="3">
+        <route edges="foot0-2r -foot0-2r"/>
+    </flow>
+    <vehicle id="vslot0-2l" type="car" depart="0" departPos="0">
+        <route edges="slot0-2l -slot0-2l"/>
+    </vehicle>
+    <vehicle id="vslot0-1r" type="car" depart="0" departPos="0">
+        <route edges="slot0-1r -slot0-1r"/>
+    </vehicle>
+    <vehicle id="vslot0-1l" type="car" depart="0" departPos="0">
+        <route edges="slot0-1l -slot0-1l"/>
+    </vehicle>
+    <flow id="pfoot0-0r" type="person" begin="0" period="1" number="3">
+        <route edges="foot0-0r -foot0-0r"/>
+    </flow>
+    <flow id="pfoot0-0l" type="person" begin="0" period="1" number="3">
+        <route edges="foot0-0l -foot0-0l"/>
+    </flow>
+    <vehicle id="vslot1-9r" type="car" depart="0" departPos="0">
+        <route edges="slot1-9r -slot1-9r"/>
+    </vehicle>
+    <vehicle id="vslot1-9l" type="car" depart="0" departPos="0">
+        <route edges="slot1-9l -slot1-9l"/>
+    </vehicle>
+    <flow id="pfoot1-8r" type="person" begin="0" period="1" number="3">
+        <route edges="foot1-8r -foot1-8r"/>
+    </flow>
+    <flow id="pfoot1-8l" type="person" begin="0" period="1" number="3">
+        <route edges="foot1-8l -foot1-8l"/>
+    </flow>
+    <vehicle id="vslot1-7r" type="car" depart="0" departPos="0">
+        <route edges="slot1-7r -slot1-7r"/>
+    </vehicle>
+    <flow id="pfoot1-7l" type="person" begin="0" period="1" number="3">
+        <route edges="foot1-7l -foot1-7l"/>
+    </flow>
+    <flow id="pfoot1-6r" type="person" begin="0" period="1" number="3">
+        <route edges="foot1-6r -foot1-6r"/>
+    </flow>
+    <vehicle id="vslot1-6l" type="car" depart="0" departPos="0">
+        <route edges="slot1-6l -slot1-6l"/>
+    </vehicle>
+    <flow id="pfoot1-5r" type="person" begin="0" period="1" number="3">
+        <route edges="foot1-5r -foot1-5r"/>
+    </flow>
+    <vehicle id="vslot1-5l" type="car" depart="0" departPos="0">
+        <route edges="slot1-5l -slot1-5l"/>
+    </vehicle>
+    <flow id="pfoot1-4r" type="person" begin="0" period="1" number="3">
+        <route edges="foot1-4r -foot1-4r"/>
+    </flow>
+    <vehicle id="vslot1-4l" type="car" depart="0" departPos="0">
+        <route edges="slot1-4l -slot1-4l"/>
+    </vehicle>
+    <vehicle id="vslot1-3r" type="car" depart="0" departPos="0">
+        <route edges="slot1-3r -slot1-3r"/>
+    </vehicle>
+    <vehicle id="vslot1-3l" type="car" depart="0" departPos="0">
+        <route edges="slot1-3l -slot1-3l"/>
+    </vehicle>
+    <flow id="pfoot1-2r" type="person" begin="0" period="1" number="3">
+        <route edges="foot1-2r -foot1-2r"/>
+    </flow>
+    <vehicle id="vslot1-2l" type="car" depart="0" departPos="0">
+        <route edges="slot1-2l -slot1-2l"/>
+    </vehicle>
+    <vehicle id="vslot1-1r" type="car" depart="0" departPos="0">
+        <route edges="slot1-1r -slot1-1r"/>
+    </vehicle>
+    <flow id="pfoot1-1l" type="person" begin="0" period="1" number="3">
+        <route edges="foot1-1l -foot1-1l"/>
+    </flow>
+    <flow id="pfoot1-0r" type="person" begin="0" period="1" number="3">
+        <route edges="foot1-0r -foot1-0r"/>
+    </flow>
+    <vehicle id="vslot1-0l" type="car" depart="0" departPos="0">
+        <route edges="slot1-0l -slot1-0l"/>
+    </vehicle>
+    <flow id="pfoot2-9r" type="person" begin="0" period="1" number="3">
+        <route edges="foot2-9r -foot2-9r"/>
+    </flow>
+    <flow id="pfoot2-9l" type="person" begin="0" period="1" number="3">
+        <route edges="foot2-9l -foot2-9l"/>
+    </flow>
+    <vehicle id="vslot2-8r" type="car" depart="0" departPos="0">
+        <route edges="slot2-8r -slot2-8r"/>
+    </vehicle>
+    <vehicle id="vslot2-8l" type="car" depart="0" departPos="0">
+        <route edges="slot2-8l -slot2-8l"/>
+    </vehicle>
+    <vehicle id="vslot2-7r" type="car" depart="0" departPos="0">
+        <route edges="slot2-7r -slot2-7r"/>
+    </vehicle>
+    <flow id="pfoot2-7l" type="person" begin="0" period="1" number="3">
+        <route edges="foot2-7l -foot2-7l"/>
+    </flow>
+    <vehicle id="vslot2-6r" type="car" depart="0" departPos="0">
+        <route edges="slot2-6r -slot2-6r"/>
+    </vehicle>
+    <vehicle id="vslot2-6l" type="car" depart="0" departPos="0">
+        <route edges="slot2-6l -slot2-6l"/>
+    </vehicle>
+    <flow id="pfoot2-5r" type="person" begin="0" period="1" number="3">
+        <route edges="foot2-5r -foot2-5r"/>
+    </flow>
+    <vehicle id="vslot2-5l" type="car" depart="0" departPos="0">
+        <route edges="slot2-5l -slot2-5l"/>
+    </vehicle>
+    <vehicle id="vslot2-4r" type="car" depart="0" departPos="0">
+        <route edges="slot2-4r -slot2-4r"/>
+    </vehicle>
+    <flow id="pfoot2-4l" type="person" begin="0" period="1" number="3">
+        <route edges="foot2-4l -foot2-4l"/>
+    </flow>
+    <vehicle id="vslot2-3r" type="car" depart="0" departPos="0">
+        <route edges="slot2-3r -slot2-3r"/>
+    </vehicle>
+    <flow id="pfoot2-3l" type="person" begin="0" period="1" number="3">
+        <route edges="foot2-3l -foot2-3l"/>
+    </flow>
+    <vehicle id="vslot2-2r" type="car" depart="0" departPos="0">
+        <route edges="slot2-2r -slot2-2r"/>
+    </vehicle>
+    <vehicle id="vslot2-2l" type="car" depart="0" departPos="0">
+        <route edges="slot2-2l -slot2-2l"/>
+    </vehicle>
+    <flow id="pfoot2-1r" type="person" begin="0" period="1" number="3">
+        <route edges="foot2-1r -foot2-1r"/>
+    </flow>
+    <flow id="pfoot2-1l" type="person" begin="0" period="1" number="3">
+        <route edges="foot2-1l -foot2-1l"/>
+    </flow>
+    <vehicle id="vslot2-0r" type="car" depart="0" departPos="0">
+        <route edges="slot2-0r -slot2-0r"/>
+    </vehicle>
+    <flow id="pfoot2-0l" type="person" begin="0" period="1" number="3">
+        <route edges="foot2-0l -foot2-0l"/>
+    </flow>
+    <vehicle id="vslot3-9r" type="car" depart="0" departPos="0">
+        <route edges="slot3-9r -slot3-9r"/>
+    </vehicle>
+    <flow id="pfoot3-9l" type="person" begin="0" period="1" number="3">
+        <route edges="foot3-9l -foot3-9l"/>
+    </flow>
+    <vehicle id="vslot3-8r" type="car" depart="0" departPos="0">
+        <route edges="slot3-8r -slot3-8r"/>
+    </vehicle>
+    <flow id="pfoot3-8l" type="person" begin="0" period="1" number="3">
+        <route edges="foot3-8l -foot3-8l"/>
+    </flow>
+    <vehicle id="vslot3-7r" type="car" depart="0" departPos="0">
+        <route edges="slot3-7r -slot3-7r"/>
+    </vehicle>
+    <vehicle id="vslot3-7l" type="car" depart="0" departPos="0">
+        <route edges="slot3-7l -slot3-7l"/>
+    </vehicle>
+    <vehicle id="vslot3-6r" type="car" depart="0" departPos="0">
+        <route edges="slot3-6r -slot3-6r"/>
+    </vehicle>
+    <vehicle id="vslot3-6l" type="car" depart="0" departPos="0">
+        <route edges="slot3-6l -slot3-6l"/>
+    </vehicle>
+    <flow id="pfoot3-5r" type="person" begin="0" period="1" number="3">
+        <route edges="foot3-5r -foot3-5r"/>
+    </flow>
+    <flow id="pfoot3-5l" type="person" begin="0" period="1" number="3">
+        <route edges="foot3-5l -foot3-5l"/>
+    </flow>
+    <flow id="pfoot3-4r" type="person" begin="0" period="1" number="3">
+        <route edges="foot3-4r -foot3-4r"/>
+    </flow>
+    <flow id="pfoot3-4l" type="person" begin="0" period="1" number="3">
+        <route edges="foot3-4l -foot3-4l"/>
+    </flow>
+    <flow id="pfoot3-3r" type="person" begin="0" period="1" number="3">
+        <route edges="foot3-3r -foot3-3r"/>
+    </flow>
+    <vehicle id="vslot3-3l" type="car" depart="0" departPos="0">
+        <route edges="slot3-3l -slot3-3l"/>
+    </vehicle>
+    <vehicle id="vslot3-2r" type="car" depart="0" departPos="0">
+        <route edges="slot3-2r -slot3-2r"/>
+    </vehicle>
+    <flow id="pfoot3-2l" type="person" begin="0" period="1" number="3">
+        <route edges="foot3-2l -foot3-2l"/>
+    </flow>
+    <vehicle id="vslot3-1r" type="car" depart="0" departPos="0">
+        <route edges="slot3-1r -slot3-1r"/>
+    </vehicle>
+    <flow id="pfoot3-1l" type="person" begin="0" period="1" number="3">
+        <route edges="foot3-1l -foot3-1l"/>
+    </flow>
+    <vehicle id="vslot3-0r" type="car" depart="0" departPos="0">
+        <route edges="slot3-0r -slot3-0r"/>
+    </vehicle>
+    <vehicle id="vslot3-0l" type="car" depart="0" departPos="0">
+        <route edges="slot3-0l -slot3-0l"/>
+    </vehicle>
+    <vehicle id="vslot4-9r" type="car" depart="0" departPos="0">
+        <route edges="slot4-9r -slot4-9r"/>
+    </vehicle>
+    <flow id="pfoot4-9l" type="person" begin="0" period="1" number="3">
+        <route edges="foot4-9l -foot4-9l"/>
+    </flow>
+    <vehicle id="vslot4-8r" type="car" depart="0" departPos="0">
+        <route edges="slot4-8r -slot4-8r"/>
+    </vehicle>
+    <flow id="pfoot4-8l" type="person" begin="0" period="1" number="3">
+        <route edges="foot4-8l -foot4-8l"/>
+    </flow>
+    <flow id="pfoot4-7r" type="person" begin="0" period="1" number="3">
+        <route edges="foot4-7r -foot4-7r"/>
+    </flow>
+    <flow id="pfoot4-7l" type="person" begin="0" period="1" number="3">
+        <route edges="foot4-7l -foot4-7l"/>
+    </flow>
+    <vehicle id="vslot4-6r" type="car" depart="0" departPos="0">
+        <route edges="slot4-6r -slot4-6r"/>
+    </vehicle>
+    <vehicle id="vslot4-6l" type="car" depart="0" departPos="0">
+        <route edges="slot4-6l -slot4-6l"/>
+    </vehicle>
+    <flow id="pfoot4-5r" type="person" begin="0" period="1" number="3">
+        <route edges="foot4-5r -foot4-5r"/>
+    </flow>
+    <vehicle id="vslot4-5l" type="car" depart="0" departPos="0">
+        <route edges="slot4-5l -slot4-5l"/>
+    </vehicle>
+    <vehicle id="vslot4-4r" type="car" depart="0" departPos="0">
+        <route edges="slot4-4r -slot4-4r"/>
+    </vehicle>
+    <flow id="pfoot4-4l" type="person" begin="0" period="1" number="3">
+        <route edges="foot4-4l -foot4-4l"/>
+    </flow>
+    <flow id="pfoot4-3r" type="person" begin="0" period="1" number="3">
+        <route edges="foot4-3r -foot4-3r"/>
+    </flow>
+    <vehicle id="vslot4-3l" type="car" depart="0" departPos="0">
+        <route edges="slot4-3l -slot4-3l"/>
+    </vehicle>
+    <flow id="pfoot4-2r" type="person" begin="0" period="1" number="3">
+        <route edges="foot4-2r -foot4-2r"/>
+    </flow>
+    <vehicle id="vslot4-2l" type="car" depart="0" departPos="0">
+        <route edges="slot4-2l -slot4-2l"/>
+    </vehicle>
+    <vehicle id="vslot4-1r" type="car" depart="0" departPos="0">
+        <route edges="slot4-1r -slot4-1r"/>
+    </vehicle>
+    <vehicle id="vslot4-1l" type="car" depart="0" departPos="0">
+        <route edges="slot4-1l -slot4-1l"/>
+    </vehicle>
+    <flow id="pfoot4-0r" type="person" begin="0" period="1" number="3">
+        <route edges="foot4-0r -foot4-0r"/>
+    </flow>
+    <flow id="pfoot4-0l" type="person" begin="0" period="1" number="3">
+        <route edges="foot4-0l -foot4-0l"/>
+    </flow>
+    <vehicle id="vslot5-9r" type="car" depart="0" departPos="0">
+        <route edges="slot5-9r -slot5-9r"/>
+    </vehicle>
+    <vehicle id="vslot5-9l" type="car" depart="0" departPos="0">
+        <route edges="slot5-9l -slot5-9l"/>
+    </vehicle>
+    <vehicle id="vslot5-8r" type="car" depart="0" departPos="0">
+        <route edges="slot5-8r -slot5-8r"/>
+    </vehicle>
+    <vehicle id="vslot5-8l" type="car" depart="0" departPos="0">
+        <route edges="slot5-8l -slot5-8l"/>
+    </vehicle>
+    <vehicle id="vslot5-7r" type="car" depart="0" departPos="0">
+        <route edges="slot5-7r -slot5-7r"/>
+    </vehicle>
+    <vehicle id="vslot5-7l" type="car" depart="0" departPos="0">
+        <route edges="slot5-7l -slot5-7l"/>
+    </vehicle>
+    <flow id="pfoot5-6r" type="person" begin="0" period="1" number="3">
+        <route edges="foot5-6r -foot5-6r"/>
+    </flow>
+    <flow id="pfoot5-6l" type="person" begin="0" period="1" number="3">
+        <route edges="foot5-6l -foot5-6l"/>
+    </flow>
+    <vehicle id="vslot5-5r" type="car" depart="0" departPos="0">
+        <route edges="slot5-5r -slot5-5r"/>
+    </vehicle>
+    <flow id="pfoot5-5l" type="person" begin="0" period="1" number="3">
+        <route edges="foot5-5l -foot5-5l"/>
+    </flow>
+    <vehicle id="vslot5-4r" type="car" depart="0" departPos="0">
+        <route edges="slot5-4r -slot5-4r"/>
+    </vehicle>
+    <vehicle id="vslot5-4l" type="car" depart="0" departPos="0">
+        <route edges="slot5-4l -slot5-4l"/>
+    </vehicle>
+    <vehicle id="vslot5-3r" type="car" depart="0" departPos="0">
+        <route edges="slot5-3r -slot5-3r"/>
+    </vehicle>
+    <flow id="pfoot5-3l" type="person" begin="0" period="1" number="3">
+        <route edges="foot5-3l -foot5-3l"/>
+    </flow>
+    <vehicle id="vslot5-2r" type="car" depart="0" departPos="0">
+        <route edges="slot5-2r -slot5-2r"/>
+    </vehicle>
+    <vehicle id="vslot5-2l" type="car" depart="0" departPos="0">
+        <route edges="slot5-2l -slot5-2l"/>
+    </vehicle>
+    <flow id="pfoot5-1r" type="person" begin="0" period="1" number="3">
+        <route edges="foot5-1r -foot5-1r"/>
+    </flow>
+    <flow id="pfoot5-1l" type="person" begin="0" period="1" number="3">
+        <route edges="foot5-1l -foot5-1l"/>
+    </flow>
+    <flow id="pfoot5-0r" type="person" begin="0" period="1" number="3">
+        <route edges="foot5-0r -foot5-0r"/>
+    </flow>
+    <vehicle id="vslot5-0l" type="car" depart="0" departPos="0">
+        <route edges="slot5-0l -slot5-0l"/>
+    </vehicle>
+    <vehicle id="vslot6-9r" type="car" depart="0" departPos="0">
+        <route edges="slot6-9r -slot6-9r"/>
+    </vehicle>
+    <flow id="pfoot6-9l" type="person" begin="0" period="1" number="3">
+        <route edges="foot6-9l -foot6-9l"/>
+    </flow>
+    <vehicle id="vslot6-8r" type="car" depart="0" departPos="0">
+        <route edges="slot6-8r -slot6-8r"/>
+    </vehicle>
+    <flow id="pfoot6-8l" type="person" begin="0" period="1" number="3">
+        <route edges="foot6-8l -foot6-8l"/>
+    </flow>
+    <flow id="pfoot6-7r" type="person" begin="0" period="1" number="3">
+        <route edges="foot6-7r -foot6-7r"/>
+    </flow>
+    <vehicle id="vslot6-7l" type="car" depart="0" departPos="0">
+        <route edges="slot6-7l -slot6-7l"/>
+    </vehicle>
+    <flow id="pfoot6-6r" type="person" begin="0" period="1" number="3">
+        <route edges="foot6-6r -foot6-6r"/>
+    </flow>
+    <flow id="pfoot6-6l" type="person" begin="0" period="1" number="3">
+        <route edges="foot6-6l -foot6-6l"/>
+    </flow>
+    <vehicle id="vslot6-5r" type="car" depart="0" departPos="0">
+        <route edges="slot6-5r -slot6-5r"/>
+    </vehicle>
+    <flow id="pfoot6-5l" type="person" begin="0" period="1" number="3">
+        <route edges="foot6-5l -foot6-5l"/>
+    </flow>
+    <flow id="pfoot6-4r" type="person" begin="0" period="1" number="3">
+        <route edges="foot6-4r -foot6-4r"/>
+    </flow>
+    <vehicle id="vslot6-4l" type="car" depart="0" departPos="0">
+        <route edges="slot6-4l -slot6-4l"/>
+    </vehicle>
+    <vehicle id="vslot6-3r" type="car" depart="0" departPos="0">
+        <route edges="slot6-3r -slot6-3r"/>
+    </vehicle>
+    <vehicle id="vslot6-3l" type="car" depart="0" departPos="0">
+        <route edges="slot6-3l -slot6-3l"/>
+    </vehicle>
+    <flow id="pfoot6-2r" type="person" begin="0" period="1" number="3">
+        <route edges="foot6-2r -foot6-2r"/>
+    </flow>
+    <flow id="pfoot6-2l" type="person" begin="0" period="1" number="3">
+        <route edges="foot6-2l -foot6-2l"/>
+    </flow>
+    <flow id="pfoot6-1r" type="person" begin="0" period="1" number="3">
+        <route edges="foot6-1r -foot6-1r"/>
+    </flow>
+    <flow id="pfoot6-1l" type="person" begin="0" period="1" number="3">
+        <route edges="foot6-1l -foot6-1l"/>
+    </flow>
+    <vehicle id="vslot6-0r" type="car" depart="0" departPos="0">
+        <route edges="slot6-0r -slot6-0r"/>
+    </vehicle>
+    <flow id="pfoot6-0l" type="person" begin="0" period="1" number="3">
+        <route edges="foot6-0l -foot6-0l"/>
+    </flow>
+    <vehicle id="vslot7-9r" type="car" depart="0" departPos="0">
+        <route edges="slot7-9r -slot7-9r"/>
+    </vehicle>
+    <flow id="pfoot7-9l" type="person" begin="0" period="1" number="3">
+        <route edges="foot7-9l -foot7-9l"/>
+    </flow>
+    <flow id="pfoot7-8r" type="person" begin="0" period="1" number="3">
+        <route edges="foot7-8r -foot7-8r"/>
+    </flow>
+    <flow id="pfoot7-8l" type="person" begin="0" period="1" number="3">
+        <route edges="foot7-8l -foot7-8l"/>
+    </flow>
+    <flow id="pfoot7-7r" type="person" begin="0" period="1" number="3">
+        <route edges="foot7-7r -foot7-7r"/>
+    </flow>
+    <vehicle id="vslot7-7l" type="car" depart="0" departPos="0">
+        <route edges="slot7-7l -slot7-7l"/>
+    </vehicle>
+    <flow id="pfoot7-6r" type="person" begin="0" period="1" number="3">
+        <route edges="foot7-6r -foot7-6r"/>
+    </flow>
+    <flow id="pfoot7-6l" type="person" begin="0" period="1" number="3">
+        <route edges="foot7-6l -foot7-6l"/>
+    </flow>
+    <flow id="pfoot7-5r" type="person" begin="0" period="1" number="3">
+        <route edges="foot7-5r -foot7-5r"/>
+    </flow>
+    <flow id="pfoot7-5l" type="person" begin="0" period="1" number="3">
+        <route edges="foot7-5l -foot7-5l"/>
+    </flow>
+    <vehicle id="vslot7-4r" type="car" depart="0" departPos="0">
+        <route edges="slot7-4r -slot7-4r"/>
+    </vehicle>
+    <vehicle id="vslot7-4l" type="car" depart="0" departPos="0">
+        <route edges="slot7-4l -slot7-4l"/>
+    </vehicle>
+    <vehicle id="vslot7-3r" type="car" depart="0" departPos="0">
+        <route edges="slot7-3r -slot7-3r"/>
+    </vehicle>
+    <vehicle id="vslot7-3l" type="car" depart="0" departPos="0">
+        <route edges="slot7-3l -slot7-3l"/>
+    </vehicle>
+    <flow id="pfoot7-2r" type="person" begin="0" period="1" number="3">
+        <route edges="foot7-2r -foot7-2r"/>
+    </flow>
+    <flow id="pfoot7-2l" type="person" begin="0" period="1" number="3">
+        <route edges="foot7-2l -foot7-2l"/>
+    </flow>
+    <flow id="pfoot7-1r" type="person" begin="0" period="1" number="3">
+        <route edges="foot7-1r -foot7-1r"/>
+    </flow>
+    <flow id="pfoot7-1l" type="person" begin="0" period="1" number="3">
+        <route edges="foot7-1l -foot7-1l"/>
+    </flow>
+    <vehicle id="vslot7-0r" type="car" depart="0" departPos="0">
+        <route edges="slot7-0r -slot7-0r"/>
+    </vehicle>
+    <flow id="pfoot7-0l" type="person" begin="0" period="1" number="3">
+        <route edges="foot7-0l -foot7-0l"/>
+    </flow>
+    <flow id="b" type="cybercar" begin="0" period="100" number="2">
+        <route edges="cyberin"/>
+    </flow>
+</routes>

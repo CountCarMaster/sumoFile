@@ -1,0 +1,18 @@
+<edges>
+    <edge id="e1to0" from="nd1" to="nd0" numLanes="1" speed="15"/>
+    <edge id="e0to1" from="nd0" to="nd1" numLanes="1" speed="15"/>
+    <edge id="e2to0" from="nd2" to="nd0" numLanes="1" speed="15"/>
+    <edge id="e0to2" from="nd0" to="nd2" numLanes="1" speed="15"/>
+    <edge id="e3to0" from="nd3" to="nd0" numLanes="1" speed="15"/>
+    <edge id="e0to3" from="nd0" to="nd3" numLanes="1" speed="15"/>
+    <edge id="e4to0" from="nd4" to="nd0" numLanes="1" speed="15"/>
+    <edge id="e0to4" from="nd0" to="nd4" numLanes="1" speed="15"/>
+    <edge id="e1to5_1" from="nd1" to="nd5_1" numLanes="1" speed="15"/>
+    <edge id="e5_1to1" from="nd5_1" to="nd1" numLanes="1" speed="15"/>
+    <edge id="e2to5_2" from="nd2" to="nd5_2" numLanes="1" speed="15"/>
+    <edge id="e5_2to2" from="nd5_2" to="nd2" numLanes="1" speed="15"/>
+    <edge id="e3to5_3" from="nd3" to="nd5_3" numLanes="1" speed="15"/>
+    <edge id="e5_3to3" from="nd5_3" to="nd3" numLanes="1" speed="15"/>
+    <edge id="e4to5_4" from="nd4" to="nd5_4" numLanes="1" speed="15"/>
+    <edge id="e5_4to4" from="nd5_4" to="nd4" numLanes="1" speed="15"/>
+</edges>

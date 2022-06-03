@@ -1,0 +1,26 @@
+<edges>
+    <edge id="nd0to1" from="nd0" to="nd1" numLanes="3" spreadType="center"/>
+    <edge id="-nd0to1" from="nd1" to="nd0" numLanes="3" spreadType="center"/>
+    <edge id="nd0to2" from="nd0" to="nd2" numLanes="3" spreadType="center"/>
+    <edge id="-nd0to2" from="nd2" to="nd0" numLanes="3" spreadType="center"/>
+    <edge id="nd0to3" from="nd0" to="nd3" numLanes="3" spreadType="center"/>
+    <edge id="-nd0to3" from="nd3" to="nd0" numLanes="3" spreadType="center"/>
+    <edge id="nd0to6" from="nd0" to="nd6" numLanes="3" spreadType="center"/>
+    <edge id="-nd0to6" from="nd6" to="nd0" numLanes="3" spreadType="center"/>
+    <edge id="nd1to4" from="nd1" to="nd4" numLanes="3" spreadType="center"/>
+    <edge id="-nd1to4" from="nd4" to="nd1" numLanes="3" spreadType="center"/>
+    <edge id="nd1to7" from="nd1" to="nd7" numLanes="3" spreadType="center"/>
+    <edge id="-nd1to7" from="nd7" to="nd1" numLanes="3" spreadType="center"/>
+    <edge id="nd2to5" from="nd2" to="nd5" numLanes="3" spreadType="center"/>
+    <edge id="-nd2to5" from="nd5" to="nd2" numLanes="3" spreadType="center"/>
+    <edge id="nd2to8" from="nd2" to="nd8" numLanes="3" spreadType="center"/>
+    <edge id="-nd2to8" from="nd8" to="nd2" numLanes="3" spreadType="center"/>
+    <edge id="nd3to4" from="nd3" to="nd4" numLanes="3" spreadType="center"/>
+    <edge id="-nd3to4" from="nd4" to="nd3" numLanes="3" spreadType="center"/>
+    <edge id="nd3to5" from="nd3" to="nd5" numLanes="3" spreadType="center"/>
+    <edge id="-nd3to5" from="nd5" to="nd3" numLanes="3" spreadType="center"/>
+    <edge id="nd6to7" from="nd6" to="nd7" numLanes="3" spreadType="center"/>
+    <edge id="-nd6to7" from="nd7" to="nd6" numLanes="3" spreadType="center"/>
+    <edge id="nd6to8" from="nd6" to="nd8" numLanes="3" spreadType="center"/>
+    <edge id="-nd6to8" from="nd8" to="nd6" numLanes="3" spreadType="center"/>
+</edges>

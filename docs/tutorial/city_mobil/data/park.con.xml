@@ -1,0 +1,18 @@
+<connections>
+<connection from="cyber0to1" to="cyber1to2"/>
+<connection from="-cyber1to2" to="-cyber0to1"/>
+<connection from="cyber1to2" to="cyber2to3"/>
+<connection from="-cyber2to3" to="-cyber1to2"/>
+<connection from="cyber2to3" to="cyber3to4"/>
+<connection from="-cyber3to4" to="-cyber2to3"/>
+<connection from="cyber3to4" to="cyber4to5"/>
+<connection from="-cyber4to5" to="-cyber3to4"/>
+<connection from="cyber4to5" to="cyber5to6"/>
+<connection from="-cyber5to6" to="-cyber4to5"/>
+<connection from="cyber5to6" to="cyber6to7"/>
+<connection from="-cyber6to7" to="-cyber5to6"/>
+<connection from="cyber6to7" to="cyber7to8"/>
+<connection from="-cyber7to8" to="-cyber6to7"/>
+<connection from="cyber7to8" to="cyberout"/>
+<connection from="-cyberout" to="-cyber7to8"/>
+</connections>

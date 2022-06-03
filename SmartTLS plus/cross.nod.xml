@@ -1,0 +1,11 @@
+<nodes>
+    <node id="nd0" x="0" y="0" type="traffic_light"/>
+    <node id="nd1" x="-500" y="0" type="priority"/>
+    <node id="nd2" x="0" y="500" type="priority"/>
+    <node id="nd3" x="500" y="0" type="priority"/>
+    <node id="nd4" x="0" y="-500" type="priority"/>
+    <node id="nd5_1" x="-510" y="0" type="priority"/>
+    <node id="nd5_2" x="0" y="510" type="priority"/>
+    <node id="nd5_3" x="510" y="0" type="priority"/>
+    <node id="nd5_4" x="0" y="-510" type="priority"/>
+</nodes>

@@ -1,0 +1,18 @@
+<connections>
+    <connection from="e1to0" to="e0to3" fromLane="0" toLane="0"/>
+    <connection from="e0to1" to="e1to5_1" fromLane="0" toLane="0"/>
+    <connection from="e5_1to1" to="e1to0" fromLane="0" toLane="0"/>
+    <connection from="e5_1to1" to="e1to5_1" fromLane="0" toLane="0"/>
+    <connection from="e2to0" to="e0to4" fromLane="0" toLane="0"/>
+    <connection from="e0to2" to="e2to5_2" fromLane="0" toLane="0"/>
+    <connection from="e5_2to2" to="e2to0" fromLane="0" toLane="0"/>
+    <connection from="e5_2to2" to="e2to5_2" fromLane="0" toLane="0"/>
+    <connection from="e3to0" to="e0to1" fromLane="0" toLane="0"/>
+    <connection from="e0to3" to="e3to5_3" fromLane="0" toLane="0"/>
+    <connection from="e5_3to3" to="e3to0" fromLane="0" toLane="0"/>
+    <connection from="e5_3to3" to="e3to5_3" fromLane="0" toLane="0"/>
+    <connection from="e4to0" to="e0to2" fromLane="0" toLane="0"/>
+    <connection from="e0to4" to="e4to5_4" fromLane="0" toLane="0"/>
+    <connection from="e5_4to4" to="e4to0" fromLane="0" toLane="0"/>
+    <connection from="e5_4to4" to="e4to5_4" fromLane="0" toLane="0"/>
+</connections>
